@@ -46,9 +46,8 @@ let songs = [
         artist: "Chase Atlantic",
         album: "Beauty in Death",
         albumArtUrl: "https://tse3.mm.bing.net/th?id=OIP.VwivM--7Xx_SmgsqXBLi8AAAAA&pid=Api&P=0&h=220",
-        audioSrc: "audio_consume.mp3",
-        videoBgSrc: "videos/consume.mp4", // Path video background khusus lagu ini
-        // Lirik dengan timestamp dalam detik
+        audioSrc: "audio/consume.mp3",
+        videoBgSrc: "videos/consume.mp4",
         lyrics: [
             { time: 0.8, text: "She said, Careful, or you'll lose it" },
             { time: 4, text: "But, girl, I'm only human," },
@@ -73,9 +72,8 @@ let songs = [
         artist: "Ed Sheeran",
         album: "÷ (Divide)",
         albumArtUrl: "https://tse4.mm.bing.net/th?id=OIP.TjS4z1jJTsl6K3-ADIXFywHaEK&pid=Api&P=0&h=220",
-        audioSrc: "audio/Ed Sheeran - Perfect.mp3",
-        videoBgSrc: "videos/perfect_bg.mp4", // Path video background khusus lagu ini
-        // Lirik dengan timestamp dalam detik
+        audioSrc: "audio/perfect.mp3",
+        videoBgSrc: "videos/perfect.mp4",
         lyrics: [
             { time: 2.9 , text: "I found a love for me" },
             { time: 10.6, text: "Oh, darlin, just dive right in and follow my lead" },
@@ -92,7 +90,8 @@ let songs = [
             { time: 80.9, text: "When you said you looked a mess, I whispered underneath my breath" },
             { time: 88, text: "But you heard it, darling, you look perfect tonight" }
         ]
-    },    
+    }
+];
     {
         id: 3,
         title: "Unconditionally",
