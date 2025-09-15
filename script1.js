@@ -47,7 +47,8 @@ let songs = [
         album: "Beauty in Death",
         albumArtUrl: "https://tse3.mm.bing.net/th?id=OIP.VwivM--7Xx_SmgsqXBLi8AAAAA&pid=Api&P=0&h=220",
         audioSrc: "audio/consume.mp3",
-        videoBgSrc: "videos/consume.mp4",
+        videoBgSrc: "videos/consume.mp4", // Path video background khusus lagu ini
+        // Lirik dengan timestamp dalam detik
         lyrics: [
             { time: 0.8, text: "She said, Careful, or you'll lose it" },
             { time: 4, text: "But, girl, I'm only human," },
@@ -72,8 +73,9 @@ let songs = [
         artist: "Ed Sheeran",
         album: "÷ (Divide)",
         albumArtUrl: "https://tse4.mm.bing.net/th?id=OIP.TjS4z1jJTsl6K3-ADIXFywHaEK&pid=Api&P=0&h=220",
-        audioSrc: "audio/perfect.mp3",
-        videoBgSrc: "videos/perfect.mp4",
+        audioSrc: "audio/Ed Sheeran - Perfect.mp3",
+        videoBgSrc: "videos/perfect_bg.mp4", // Path video background khusus lagu ini
+        // Lirik dengan timestamp dalam detik
         lyrics: [
             { time: 2.9 , text: "I found a love for me" },
             { time: 10.6, text: "Oh, darlin, just dive right in and follow my lead" },
@@ -90,15 +92,14 @@ let songs = [
             { time: 80.9, text: "When you said you looked a mess, I whispered underneath my breath" },
             { time: 88, text: "But you heard it, darling, you look perfect tonight" }
         ]
-    }
-];
+    },
     {
         id: 3,
         title: "Unconditionally",
         artist: "Katy Perry",
         album: "Prism",
         albumArtUrl: "https://i.ytimg.com/vi/4NGVxU0qhZ8/maxresdefault.jpg",
-        audioSrc: "audio_Katy Perry - Unconditionally.mp3",
+        audioSrc: "audio/Katy Perry - Unconditionally.mp3",
         videoBgSrc: "videos/unconditionally_bg.mp4", // Path video background khusus lagu ini
         // Lirik dengan timestamp dalam detik
         lyrics: [
@@ -147,7 +148,7 @@ let songs = [
         artist: "James Arthur & Anne-Marie",
         album: "The Greatest Showman: Reimagined",
         albumArtUrl: "https://i.ytimg.com/vi/BqGCJUXEqxQ/maxresdefault.jpg",
-        audioSrc: "audio_Rewrite The Stars - James Arthur feat. Anne Marie.mp3",
+        audioSrc: "audio/Rewrite The Stars - James Arthur feat. Anne Marie.mp3",
         videoBgSrc: "videos/rewrite_the_stars_bg.mp4",
         lyrics: [
             { time: 1000, text: "You know I want you" },
@@ -207,136 +208,8 @@ let songs = [
             { time: 1000, text: "We're bound to break and my hands are tied" }
         ]
     },
-{
-        id: 5,
-        title: "Somebody's Pleasure",
-        artist: "Aziz Hedra", 
-        album: "Unreleased",
-        albumArtUrl: "https://tse3.mm.bing.net/th?id=OIP.5fDFhJU8ZYGRlPD4ffPlgAHaHa&pid=Api&P=0&h=220", 
-        audioSrc: "audio_Somebodys Pleasure.mp3",
-        videoBgSrc: "videos/somebodys_pleasure_bg.mp4",
-        lyrics: [
-            { time: 1000, text: "I've been too busy ignoring and hiding" },
-            { time: 1000, text: "About what my heart actually say" },
-            { time: 1000, text: "Stay awake while I'm drowning on my thoughts" },
-            { time: 1000, text: "Sometimes a happiness is just a happiness" },
-            { time: 1000, text: "I've never been enjoying my serenity" },
-            { time: 1000, text: "Even if I've got a lot of company" },
-            { time: 1000, text: "That makes me happy" },
-            { time: 1000, text: "Soul try to figure it out" },
-            { time: 1000, text: "From where I've been escaping" },
-            { time: 1000, text: "Running to end all the sin" },
-            { time: 1000, text: "Get away from the pressure" },
-            { time: 1000, text: "Wondering to get a love that is so pure" },
-            { time: 1000, text: "Gotta have to always make sure" },
-            { time: 1000, text: "That I'm not just somebody's pleasure" },
-            { time: 1000, text: "I always pretending and lying" },
-            { time: 1000, text: "I got used to feel empty" },
-            { time: 1000, text: "'Cause all I got is unhappy" },
-            { time: 1000, text: "Happiness, can't I get happiness?" },
-            { time: 1000, text: "I've never been enjoying my serenity" },
-            { time: 1000, text: "Even if I've got a lot of company" },
-            { time: 1000, text: "That makes me happy" },
-            { time: 1000, text: "And I don't even feel my own pain" },
-            { time: 1000, text: "Whatever when the storms pouring rain" },
-            { time: 1000, text: "Feels like a wind" },
-            { time: 1000, text: "Soul try to figure it out" },
-            { time: 1000, text: "From where I've been escaping" },
-            { time: 1000, text: "Running to end all the sin" },
-            { time: 1000, text: "Get away from the pressure" },
-            { time: 1000, text: "Wondering to get a love that is so pure" },
-            { time: 1000, text: "Gotta have to always make sure" },
-            { time: 1000, text: "That I'm not just somebody's pleasure" },
-            { time: 1000, text: "I hold imagination" },
-            { time: 1000, text: "Cover all of the sadness" },
-            { time: 1000, text: "I don't feel something special" },
-            { time: 1000, text: "Turn off the phone to get some spatial" },
-            { time: 1000, text: "Never thought I'd living in true" },
-            { time: 1000, text: "The truth that has been so blue" },
-            { time: 1000, text: "It was in a blink of an eye" },
-            { time: 1000, text: "Find a way how to say goodbye" },
-            { time: 1000, text: "I've got to take me away from all sadness" },
-            { time: 1000, text: "Stitch all my wounds, confess all the sins" },
-            { time: 1000, text: "And took all my insecurities" },
-            { time: 1000, text: "When will I got the love that is so pure?" },
-            { time: 1000, text: "Gotta have to always make sure" },
-            { time: 1000, text: "That I'm not just, I'm not just somebody's pleasure" },
-            { time: 1000, text: "Gotta have, gotta have to always make sure" },
-            { time: 1000, text: "I'm not just somebody's pleasure" }
-        ]
-    },
-    {
-        id: 6,
-        title: "I Wanna Be Yours",
-        artist: "Arctic Monkeys",
-        album: "AM",
-        albumArtUrl: "https://i.ytimg.com/vi/fJLQCf4mFP0/hqdefault.jpg",
-        audioSrc: "audio_I Wanna Be Yours.mp3",
-        videoBgSrc: "videos/i_wanna_be_yours_bg.mp4",
-        lyrics: [
-            { time: 1000, text: "I wanna be your vacuum cleaner" },
-            { time: 1000, text: "Breathing in your dust" },
-            { time: 1000, text: "I wanna be your Ford Cortina" },
-            { time: 1000, text: "I will never rust" },
-            { time: 1000, text: "If you like your coffee hot" },
-            { time: 1000, text: "Let me be your coffee pot" },
-            { time: 1000, text: "You call the shots, babe" },
-            { time: 1000, text: "I just wanna be yours" },
-            
-            { time: 1000, text: "Secrets I have held in my heart" },
-            { time: 1000, text: "Are harder to hide than I thought" },
-            { time: 1000, text: "Maybe I just wanna be yours" },
-            { time: 1000, text: "I wanna be yours, I wanna be yours" },
-            { time: 1000, text: "Wanna be yours, wanna be yours, wanna be yours" },
+    ];
 
-            { time: 1000, text: "Let me be your 'leccy meter and I'll never run out" },
-            { time: 1000, text: "Let me be the portable heater that you'll get cold without" },
-            { time: 1000, text: "I wanna be your setting lotion (wanna be)" },
-            { time: 1000, text: "Hold your hair in deep devotion (how deep?)" },
-            { time: 1000, text: "At least as deep as the Pacific Ocean" },
-            { time: 1000, text: "I wanna be yours" },
-
-            { time: 1000, text: "Secrets I have held in my heart" },
-            { time: 1000, text: "Are harder to hide than I thought" },
-            { time: 1000, text: "Maybe I just wanna be yours" },
-            { time: 1000, text: "I wanna be yours, I wanna be yours" },
-            { time: 1000, text: "Wanna be yours, wanna be yours, wanna be yours" },
-            { time: 1000, text: "Wanna be yours, wanna be yours, wanna be yours" },
-            { time: 1000, text: "Wanna be yours, wanna be yours" },
-
-            { time: 1000, text: "I wanna be your vacuum cleaner (Wanna be yours)" },
-            { time: 1000, text: "Breathing in your dust (Wanna be yours)" },
-            { time: 1000, text: "I wanna be your Ford Cortina (Wanna be yours)" },
-            { time: 1000, text: "I will never rust (Wanna be yours)" },
-            { time: 1000, text: "I just wanna be yours (Wanna be yours)" },
-            { time: 1000, text: "I just wanna be yours (Wanna be yours)" },
-            { time: 1000, text: "I just wanna be yours (Wanna be yours)" }
-        ]
-    },
-
-
-    {
-        id: 7,
-        title: "Let Down",
-        artist: "Radiohead",
-        album: "OK Computer",
-        albumArtUrl: "https://images.genius.com/ea1fda114f5091bce67f87cf8437b647.1000x1000x1.png",
-        audioSrc: "audio_letdown.mp3",
-        videoBgSrc: "videos/letdown.mp4",
-        lyrics: [
-            { time: 0.2  ,  text: "Floor collapsing Floating" },
-            { time: 5,  text: "bouncing back and " },
-            { time: 7, text: "One day, I am gonna grow wings" },
-            { time: 14.2, text: "A chemical reaction" },
-            { time: 17.9, text: "Hysterical and useless" },
-            { time: 23, text: "Hysterical and" },
-            { time: 26, text: "Let down and hanging around" },
-            { time: 33, text: "Crushed like a bug in the ground" },
-            { time: 40, text: "Let down and hanging around" }
-
-        ]
-    },
-];
 let currentSongIndex = 0;
 let isPlaying = false;
 let isShuffle = false;
@@ -375,6 +248,7 @@ function showSongDetailPage(song) {
     backgroundVideo.src = ""; // Kosongkan src video
     backgroundVideo.load();
 }
+
 function showPlayerPage() {
     homePage.classList.remove('active');
     songDetailPage.classList.remove('active');
@@ -420,6 +294,7 @@ function renderSongList() {
             playTrack();
             showPlayerPage(); // Langsung pindah ke halaman pemutar musik
         });
+        
         // Event listener untuk hover
         listItem.addEventListener('mouseenter', () => {
             // Hanya aktifkan video background jika kita di halaman home
@@ -474,6 +349,7 @@ function loadSong(song) {
     audioPlayer.load();
     updatePlayPauseIcon();
 }
+
 // Fungsi baru untuk merender lirik
 function renderLyrics(lyrics) {
     lyricsContainer.innerHTML = ''; // Bersihkan container lirik
@@ -507,13 +383,6 @@ function playTrack() {
     audioPlayer.play().catch(error => console.error("Error saat play:", error));
     updatePlayPauseIcon();
 }
-
-function pauseTrack() {
-    isPlaying = false;
-    audioPlayer.pause();
-    updatePlayPauseIcon();
-}
-
 function updatePlayPauseIcon() {
     if (isPlaying) {
         playerPlayPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
@@ -533,6 +402,7 @@ function prevTrack() {
     playTrack();
     showPlayerPage(); // Perbarui video background
 }
+
 function nextTrackLogic() {
     if (songs.length === 0) return;
     if (isShuffle) {
@@ -585,6 +455,8 @@ function playRandomTrack() {
     playTrack();
     showPlayerPage(); // Perbarui video background
 }
+
+
 audioPlayer.addEventListener('timeupdate', () => {
     if (audioPlayer.duration) {
         const progressPercent = (audioPlayer.currentTime / audioPlayer.duration) * 100;
@@ -629,6 +501,7 @@ audioPlayer.addEventListener('timeupdate', () => {
         }
     }
 });
+
 function formatTime(seconds) {
     const minutes = Math.floor(seconds / 60);
     const secs = Math.floor(seconds % 60);
@@ -641,7 +514,6 @@ playerProgressBarContainer.addEventListener('click', (e) => {
     const clickX = e.offsetX;
     audioPlayer.currentTime = (clickX / width) * audioPlayer.duration;
 });
-
 playerVolumeSlider.addEventListener('input', (e) => {
     audioPlayer.volume = e.target.value;
 });
