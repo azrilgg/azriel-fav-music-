@@ -334,7 +334,7 @@ let songs = [
     artist: "Marshmello ft. Bastille",
     album: "Happier (Single)",
     albumArtUrl: "images/happier.jpg",
-    audioSrc: "audio/The Chainsmokers - Closer Ft. Halsey.mp3",
+    audioSrc: "audio/Marshmello ft Bastille Happier.mp3",
     videoBgSrc: "videos/happier.mp4",
     lyrics: [
         { time: 0, text: "Lately, I've been, I've been thinking" },
