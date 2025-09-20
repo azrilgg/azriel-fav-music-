@@ -272,7 +272,7 @@ let songs = [
   title: "Closer",
   artist: "The Chainsmokers ft. Halsey",
   album: "Collage",
-  albumArtUrl: "image/Closer.jpg",
+  albumArtUrl: "images/Closer.jpg",
   audioSrc: "audio/The Chainsmokers - Closer Ft. Halsey.mp3",
   videoBgSrc: "videos/closer.mp4",
   lyrics: [
