@@ -646,7 +646,6 @@ function renderLyrics(lyrics) {
     });
 }
 
-
 function playTrack() {
     if (!audioPlayer.src || audioPlayer.src === window.location.href) {
         if (songs.length > 0) {
@@ -660,6 +659,13 @@ function playTrack() {
     audioPlayer.play().catch(error => console.error("Error saat play:", error));
     updatePlayPauseIcon();
 }
+
+function pauseTrack() {
+    audioPlayer.pause();
+    isPlaying = false;
+    updatePlayPauseIcon();
+}
+
 function updatePlayPauseIcon() {
     if (isPlaying) {
         playerPlayPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
@@ -667,6 +673,7 @@ function updatePlayPauseIcon() {
         playerPlayPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
     }
 }
+
 
 function prevTrack() {
     if (songs.length === 0) return;
