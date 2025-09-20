@@ -267,6 +267,65 @@ let songs = [
 
 ]
 },
+    {
+  id: 6,
+  title: "Closer",
+  artist: "The Chainsmokers ft. Halsey",
+  album: "Collage",
+  albumArtUrl: "Closer.jpg",
+  audioSrc: "audio/The Chainsmokers - Closer Ft. Halsey.mp3",
+  videoBgSrc: "videos/closer.mp4",
+  lyrics: [
+    { time: 0, text: "Hey, I was doing just fine before I met you" },
+    { time: 5, text: "I drink too much and that's an issue but I'm okay" },
+    { time: 11, text: "Hey, you tell your friends it was nice to meet them" },
+    { time: 16, text: "But I hope I never see them again" },
+
+    { time: 22, text: "I know it breaks your heart" },
+    { time: 25, text: "Moved to the city in a broke down car" },
+    { time: 29, text: "And four years, no calls" },
+    { time: 32, text: "Now you're looking pretty in a hotel bar" },
+
+    { time: 36, text: "And I, I, I, I, I can't stop" },
+    { time: 42, text: "No, I, I, I, I, I can't stop" },
+
+    { time: 48, text: "So baby pull me closer" },
+    { time: 51, text: "In the backseat of your Rover" },
+    { time: 54, text: "That I know you can't afford" },
+    { time: 57, text: "Bite that tattoo on your shoulder" },
+    { time: 61, text: "Pull the sheets right off the corner" },
+    { time: 64, text: "Of the mattress that you stole" },
+    { time: 67, text: "From your roommate back in Boulder" },
+    { time: 71, text: "We ain't ever getting older" },
+    { time: 77, text: "We ain't ever getting older" },
+
+    { time: 86, text: "You look as good as the day I met you" },
+    { time: 91, text: "I forget just why I left you, I was insane" },
+    { time: 97, text: "Stay and play that Blink-182 song" },
+    { time: 101, text: "That we beat to death in Tucson, okay" },
+
+    { time: 108, text: "I know it breaks your heart" },
+    { time: 111, text: "Moved to the city in a broke down car" },
+    { time: 115, text: "And four years, no call" },
+    { time: 118, text: "Now I'm looking pretty in a hotel bar" },
+
+    { time: 122, text: "And I, I, I, I, I can't stop" },
+    { time: 128, text: "No, I, I, I, I, I can't stop" },
+
+    { time: 133, text: "So baby pull me closer" },
+    { time: 136, text: "In the backseat of your Rover" },
+    { time: 139, text: "That I know you can't afford" },
+    { time: 142, text: "Bite that tattoo on your shoulder" },
+    { time: 146, text: "Pull the sheets right off the corner" },
+    { time: 149, text: "Of the mattress that you stole" },
+    { time: 152, text: "From your roommate back in Boulder" },
+    { time: 156, text: "We ain't ever getting older" },
+    { time: 163, text: "We ain't ever getting older" },
+    { time: 170, text: "We ain't ever getting older" },
+    { time: 177, text: "We ain't ever getting older" },
+    { time: 184, text: "Never getting older" }
+  ]
+    },
         
     ];
 
