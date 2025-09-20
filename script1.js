@@ -328,7 +328,80 @@ let songs = [
   { time: 249, text: "Never getting older" }
 ]
     },
-        
+        {
+    id: 7,
+    title: "Happier",
+    artist: "Marshmello ft. Bastille",
+    album: "Happier (Single)",
+    albumArtUrl: "images/happier.jpg",
+    audioSrc: "audio/The Chainsmokers - Closer Ft. Halsey.mp3",
+    videoBgSrc: "videos/happier.mp4",
+    lyrics: [
+        { time: 0, text: "Lately, I've been, I've been thinking" },
+        { time: 5, text: "I want you to be happier, I want you to be happier" },
+        { time: 12, text: "When the morning comes" },
+        { time: 15, text: "When we see what we've become" },
+        { time: 20, text: "In the cold light of day we're a flame in the wind" },
+        { time: 25, text: "Not the fire that we've begun" },
+        { time: 30, text: "Every argument, every word we can't take back" },
+        { time: 36, text: "'Cause with all that has happened" },
+        { time: 41, text: "I think that we both know the way that this story ends" },
+        { time: 48, text: "Then only for a minute" },
+        { time: 52, text: "I want to change my mind" },
+        { time: 56, text: "'Cause this just don't feel right to me" },
+        { time: 61, text: "I wanna raise your spirits" },
+        { time: 65, text: "I want to see you smile but" },
+        { time: 69, text: "Know that means I'll have to leave" },
+        { time: 74, text: "Know that means I'll have to leave" },
+
+        { time: 80, text: "Lately, I've been, I've been thinking" },
+        { time: 85, text: "I want you to be happier, I want you to be happier" },
+        { time: 92, text: "When the evening falls" },
+        { time: 96, text: "And I'm left there with my thoughts" },
+        { time: 100, text: "And the image of you being with someone else" },
+        { time: 105, text: "Well, it's eating me up inside" },
+        { time: 110, text: "But we ran our course, we pretended we're okay" },
+        { time: 115, text: "Now if we jump together at least we can swim" },
+        { time: 120, text: "Far away from the wreck we made" },
+
+        { time: 126, text: "Then only for a minute" },
+        { time: 130, text: "I want to change my mind" },
+        { time: 134, text: "'Cause this just don't feel right to me" },
+        { time: 139, text: "I wanna raise your spirits" },
+        { time: 143, text: "I want to see you smile but" },
+        { time: 147, text: "Know that means I'll have to leave" },
+        { time: 152, text: "Know that means I'll have to leave" },
+
+        { time: 158, text: "Lately, I've been, I've been thinking" },
+        { time: 163, text: "I want you to be happier, I want you to be happier" },
+        { time: 170, text: "So I'll go, I'll go" },
+        { time: 174, text: "I will go, go, go" },
+        { time: 180, text: "So I'll go, I'll go" },
+        { time: 184, text: "I will go, go, go" },
+
+        { time: 192, text: "Lately, I've been, I've been thinking" },
+        { time: 196, text: "I want you to be happier, I want you to be happier" },
+        { time: 203, text: "Even though I might not like this" },
+        { time: 207, text: "I think that you'll be happier, I want you to be happier" },
+
+        { time: 214, text: "Then only for a minute" },
+        { time: 218, text: "I want to change my mind" },
+        { time: 222, text: "'Cause this just don't feel right to me" },
+        { time: 227, text: "I wanna raise your spirits" },
+        { time: 231, text: "I want to see you smile but" },
+        { time: 235, text: "Know that means I'll have to leave" },
+        { time: 240, text: "Know that means I'll have to leave" },
+
+        { time: 246, text: "Lately, I've been, I've been thinking" },
+        { time: 250, text: "I want you to be happier, I want you to be happier" },
+        { time: 257, text: "So I'll go, I'll go" },
+        { time: 261, text: "I will go, go, go" },
+        { time: 266, text: "So I'll go, I'll go" },
+        { time: 270, text: "I will go, go, go" },
+
+        { time: 280, text: "I will go, go, go" } // outro
+    ]
+        },
     ];
 
 let currentSongIndex = 0;
