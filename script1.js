@@ -151,60 +151,222 @@ let songs = [
         audioSrc: "audio/Rewrite The Stars - James Arthur feat. Anne Marie.mp3",
         videoBgSrc: "videos/rewrite_the_stars_bg.mp4",
         lyrics: [
-  { "time": 1, "text": "You know I want you" },
-  { "time": 6, "text": "It's not a secret I try to hide" },
-  { "time": 10, "text": "You know you want me" },
-  { "time": 14, "text": "So don't keep sayin' our hands are tied" },
-  { "time": 18, "text": "You claim it's not in the cards" },
-  { "time": 20, "text": "And fate is pullin' you miles away and out of a reach from me" },
-  { "time": 23, "text": "But you're hearin' my heart" },
-  { "time": 25, "text": "So who can stop me if I decide that you're my destiny?" },
-  { "time": 27, "text": "What if we rewrite the stars?" },
-  { "time": 31, "text": "Say you were made to be mine" },
-  { "time": 35, "text": "Nothin' could keep us apart" },
-  { "time": 40, "text": "You'll be the one I was meant to find" },
-  { "time": 43, "text": "It's up to you, and it's up to me" },
-  { "time": 47, "text": "No one could say what we get to be" },
-  { "time": 51, "text": "So why don't we rewrite the stars?" },
-  { "time": 54, "text": "And maybe the world could be ours, tonight" },
-  { "time": 59, "text": "Ah-oh (no, no, no, no)" },
-  { "time": 102, "text": "Ah-oh (mm)" },
-  { "time": 107, "text": "You think it's easy" },
-  { "time": 116, "text": "You think I don't wanna run to you, yeah" },
-  { "time": 119, "text": "But there are mountains (but there are mountains)" },
-  { "time": 122, "text": "And there are doors that we can't walk through" },
-  { "time": 125, "text": "I know you're wondering why" },
-  { "time": 129, "text": "Because we're able to be just you and me within these walls" },
-  { "time": 131, "text": "But when we go outside" },
-  { "time": 138, "text": "You're gonna wake up and see that it was hopeless after all" },
-  { "time": 139, "text": "No one can rewrite the stars" },
-  { "time": 147, "text": "How can you say you'll be mine?" },
-  { "time": 152, "text": "Everythin' keeps us apart" },
-  { "time": 155, "text": "And I'm not the one you were meant to find (the one you were meant to find)" },
-  { "time": 159, "text": "It's not up to you, it's not up to me (yeah)" },
-  { "time": 203, "text": "When everyone tells us what we can be" },
-  { "time": 206, "text": "And how can we rewrite the stars?" },
-  { "time": 210, "text": "Say that the world can be ours, tonight" },
-  { "time": 215, "text": "All I want is to fly with you" },
-  { "time": 219, "text": "All I want is to fall with you" },
-  { "time": 223, "text": "So just give me all of you" },
-  { "time": 227, "text": "It feels impossible (it's not impossible)" },
-  { "time": 232, "text": "Is it impossible?" },
-  { "time": 233, "text": "Say that it's possible" },
-  { "time": 235, "text": "And how do we rewrite the stars?" },
-  { "time": 239, "text": "Say you were made to be mine" },
-  { "time": 242, "text": "And nothin' could keep us apart" },
-  { "time": 246, "text": "'Cause you are the one I was meant to find" },
-  { "time": 250, "text": "It's up to you, and it's up to me" },
-  { "time": 253, "text": "No one could say what we get to be" },
-  { "time": 257, "text": "And why don't we rewrite the stars?" },
-  { "time": 301, "text": "Changin' the world to be ours" },
-  { "time": 305, "text": "You know I want you" },
-  { "time": 318, "text": "It's not a secret I try to hide" },
-  { "time": 322, "text": "But I can't have you" },
-  { "time": 326, "text": "We're bound to break and my hands are tied" }
-
+{
+"time": 1.79,
+"text": "You know I want you"
+},
+{
+"time": 5.81,
+"text": "It's not a secret I try to hide"
+},
+{
+"time": 9.51,
+"text": "You know you want me"
+},
+{
+"time": 13.12,
+"text": "So don't keep sayin' our hands are tied"
+},
+{
+"time": 16.89,
+"text": "You claim it's not in the cards"
+},
+{
+"time": 19.14,
+"text": "And fate is pullin' you miles away and out of a reach from me"
+},
+{
+"time": 24.59,
+"text": "But you're hearin' my heart"
+},
+{
+"time": 26.59,
+"text": "So who can stop me if I decide that you're my destiny?"
+},
+{
+"time": 34.72,
+"text": "What if we rewrite the stars?"
+},
+{
+"time": 38.47,
+"text": "Say you were made to be mine"
+},
+{
+"time": 42.28,
+"text": "Nothin' could keep us apart"
+},
+{
+"time": 46.1,
+"text": "You'll be the one I was meant to find"
+},
+{
+"time": 49.97,
+"text": "It's up to you, and it's up to me"
+},
+{
+"time": 53.64,
+"text": "No one could say what we get to be"
+},
+{
+"time": 57.38,
+"text": "So why don't we rewrite the stars?"
+},
+{
+"time": 61.51,
+"text": "And maybe the world could be ours, tonight"
+},
+{
+"time": 66.84,
+"text": "Ah-oh (no, no, no, no)"
+},
+{
+"time": 70.73,
+"text": "Ah-oh (mm)"
+},
+{
+"time": 74.18,
+"text": "You think it's easy"
+},
+{
+"time": 77.93,
+"text": "You think I don't wanna run to you, yeah"
+},
+{
+"time": 81.72,
+"text": "But there are mountains (but there are mountains)"
+},
+{
+"time": 85.56,
+"text": "And there are doors that we can't walk through"
+},
+{
+"time": 89.18,
+"text": "I know you're wondering why"
+},
+{
+"time": 91.3,
+"text": "Because we're able to be just you and me within these walls"
+},
+{
+"time": 97.05,
+"text": "But when we go outside"
+},
+{
+"time": 99.08,
+"text": "You're gonna wake up and see that it was hopeless after all"
+},
+{
+"time": 106.85,
+"text": "No one can rewrite the stars"
+},
+{
+"time": 110.9,
+"text": "How can you say you'll be mine?"
+},
+{
+"time": 114.8,
+"text": "Everythin' keeps us apart"
+},
+{
+"time": 118.52,
+"text": "And I'm not the one you were meant to find (the one you were meant to find)"
+},
+{
+"time": 122.45,
+"text": "It's not up to you, it's not up to me (yeah)"
+},
+{
+"time": 126.2,
+"text": "When everyone tells us what we can be"
+},
+{
+"time": 129.95,
+"text": "And how can we rewrite the stars?"
+},
+{
+"time": 133.82,
+"text": "Say that the world can be ours, tonight"
+},
+{
+"time": 139.11,
+"text": "All I want is to fly with you"
+},
+{
+"time": 143.04,
+"text": "All I want is to fall with you"
+},
+{
+"time": 146.72,
+"text": "So just give me all of you"
+},
+{
+"time": 151.17,
+"text": "It feels impossible (it's not impossible)"
+},
+{
+"time": 153.38,
+"text": "Is it impossible?"
+},
+{
+"time": 155.03,
+"text": "Say that it's possible"
+},
+{
+"time": 158.89,
+"text": "And how do we rewrite the stars?"
+},
+{
+"time": 162.27,
+"text": "Say you were made to be mine"
+},
+{
+"time": 166.08,
+"text": "And nothin' could keep us apart"
+},
+{
+"time": 169.96,
+"text": "'Cause you are the one I was meant to find"
+},
+{
+"time": 173.75,
+"text": "It's up to you, and it's up to me"
+},
+{
+"time": 177.51,
+"text": "No one could say what we get to be"
+},
+{
+"time": 181.34,
+"text": "And why don't we rewrite the stars?"
+},
+{
+"time": 185.18,
+"text": "Changin' the world to be ours"
+},
+{
+"time": 190.5,
+"text": "Ay, ah-oh (no, no, no, no)"
+},
+{
+"time": 194.14,
+"text": "Ah-oh (mm)"
+},
+{
+"time": 198.0,
+"text": "You know I want you"
+},
+{
+"time": 202.09,
+"text": "It's not a secret I try to hide"
+},
+{
+"time": 205.8,
+"text": "But I can't have you"
+},
+{"time": 209.31,"text": "We're bound to break and my hands are tied"}
 ]
+
+        
 },
 
     {
