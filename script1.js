@@ -853,81 +853,310 @@ let songs = [
     audioSrc: "audio/French Montana Unforgettable.mp3",
     videoBgSrc: "videos/money.mp4",
     lyrics: [
-  { time: 11, text: "It's not good enough for me" },
-  { time: 14, text: "Since I've been with you, ooh" },
-  { time: 21, text: "It's not gonna work for you" },
-  { time: 24, text: "Nobody can equal me (I know)" },
-
-  { time: 30, text: "I'm gonna sip on this drink, when I'm fucked up" },
-  { time: 32, text: "I should know how to pick up" },
-  { time: 35, text: "I'm gonna catch the rhythm" },
-  { time: 37, text: "While she push up against me, ooh, and she tipsy" },
-
-  { time: 41, text: "I had enough convo for 24" },
-  { time: 45, text: "I peep'd you from across the room" },
-  { time: 46, text: "Pretty little body dancin' like GoGo, hey" },
-  { time: 50, text: "And you are unforgettable" },
-  { time: 53, text: "I need to get you alone (ooh)" },
-  { time: 58, text: "Why not? A fuckin' good time never hurt nobody" },
-
-  { time: 102, text: "Feelin' like I'm fresh out, Boosie (Boosie)" },
-  { time: 104, text: "If they want the drama, got the Uzi (Uzi)" },
-  { time: 107, text: "Ship the whole crew to the cruise ship (cruise)" },
-  { time: 110, text: "Doin' shit you don't even see in movies (movies)" },
-  { time: 112, text: "Ride with me, ride with me, boss (boss)" },
-  { time: 114, text: "I got a hard head, but her ass soft (soft)" },
-  { time: 117, text: "She want the last name with the ring on it" },
-  { time: 121, text: "'Cause I pulled out a million cash, told her plank on it" },
-
-  { time: 126, text: "And you are unforgettable" },
-  { time: 130, text: "I need to get you alone" },
-  { time: 134, text: "Now you wanna choose" },
-  { time: 138, text: "Just pop the bubbly in the 'cuzi" },
-
-  { time: 142, text: "It's not good enough for me" },
-  { time: 146, text: "Since I've been with you, ooh" },
-  { time: 150, text: "I'm gonna sip on this drink, when I'm fucked up" },
-  { time: 154, text: "I should know how to pick up" },
-  { time: 158, text: "I'm gonna catch the rhythm" },
-  { time: 161, text: "While she push up against me, ooh, and she tipsy" },
-  { time: 167, text: "I had enough convo for 24" },
-  { time: 171, text: "I peep'd you from across the room" },
-  { time: 175, text: "Pretty little body dancin' like GoGo, hey" },
-  { time: 180, text: "And you are unforgettable" },
-  { time: 184, text: "I need to get you alone, ooh" },
-  { time: 189, text: "Why not? A fuckin' good time never hurt nobody" },
-  { time: 194, text: "I got a little drink, but it's not Bacardi" },
-  { time: 199, text: "If you loved the girl, then I'm so, so sorry" },
-  { time: 204, text: "I gotta give it to her like we in a marriage" },
-  { time: 209, text: "Oh, like we in a hurry" },
-  { time: 213, text: "No, no, I won't tell nobody" },
-  { time: 217, text: "You're on your level too" },
-  { time: 221, text: "Tryna do what lovers do" },
-
-  { time: 226, text: "You ain't enough for me" },
-  { time: 230, text: "Too much for you alone" },
-  { time: 234, text: "Baby, go and grab some bad bitches, bring 'em home" },
-  { time: 239, text: "Know the jet's on me" },
-  { time: 243, text: "I'ma curve my best for you, you know" },
-  { time: 247, text: "So pick up that dress for me" },
-  { time: 250, text: "Leave the rest on" },
-  { time: 254, text: "Too much convo for 24 hours" },
-  { time: 258, text: "When you stand next to 24 karats" },
-  { time: 262, text: "She left her man at home" },
-  { time: 266, text: "She don't love him no more" },
-  { time: 270, text: "I want your mind and your body" },
-  { time: 274, text: "Don't mind nobody" },
-  { time: 278, text: "So, you don't ever hurt nobody" },
-  { time: 282, text: "Baby girl, work your body, work your body" },
-  { time: 287, text: "And you are unforgettable" },
-  { time: 291, text: "I need to get you alone" },
-  { time: 295, text: "Now you wanna choose" },
-  { time: 299, text: "Just pop the bubbly in the 'cuzi" },
-  { time: 303, text: "Why not?" },
-  { time: 307, text: "Oh, like we in a hurry" },
-  { time: 311, text: "No, no, I won't tell nobody" },
-  { time: 315, text: "You're on your level too" },
-  { time: 319, text: "Tryna do what lovers do" }
+  {
+    "time": 11.71,
+    "text": "It's not good enough for me"
+  },
+  {
+    "time": 14.1,
+    "text": "Since I've been with you, ooh"
+  },
+  {
+    "time": 21.61,
+    "text": "It's not gonna work for you"
+  },
+  {
+    "time": 23.99,
+    "text": "Nobody can equal me (I know)"
+  },
+  {
+    "time": 30.24,
+    "text": "I'm gonna sip on this drink, when I'm fucked up"
+  },
+  {
+    "time": 33.17,
+    "text": "I should know how to pick up"
+  },
+  {
+    "time": 35.56,
+    "text": "I'm gonna catch the rhythm"
+  },
+  {
+    "time": 37.09,
+    "text": "While she push up against me, ooh, and she tipsy"
+  },
+  {
+    "time": 41.28,
+    "text": "I had enough convo for 24"
+  },
+  {
+    "time": 45.09,
+    "text": "I peep'd you from across the room"
+  },
+  {
+    "time": 46.87,
+    "text": "Pretty little body dancin' like GoGo, hey"
+  },
+  {
+    "time": 50.3,
+    "text": "And you are unforgettable"
+  },
+  {
+    "time": 53.34,
+    "text": "I need to get you alone (ooh)"
+  },
+  {
+    "time": 58.76,
+    "text": "Why not? A fuckin' good time never hurt nobody"
+  },
+  {
+    "time": 61.81,
+    "text": "I got a little drink, but it's not Bacardi"
+  },
+  {
+    "time": 64.43,
+    "text": "If you loved the girl, then I'm so, so sorry"
+  },
+  {
+    "time": 66.92,
+    "text": "I gotta give it to her like we in a marriage"
+  },
+  {
+    "time": 69.97,
+    "text": "Oh, like we in a hurry"
+  },
+  {
+    "time": 72.31,
+    "text": "No, no, I won't tell nobody"
+  },
+  {
+    "time": 74.77,
+    "text": "You're on your level too"
+  },
+  {
+    "time": 77.06,
+    "text": "Tryna do what lovers do"
+  },
+  {
+    "time": 79.28,
+    "text": "Feelin' like I'm fresh out, Boosie (Boosie)"
+  },
+  {
+    "time": 81.82,
+    "text": "If they want the drama, got the Uzi (Uzi)"
+  },
+  {
+    "time": 84.14,
+    "text": "Ship the whole crew to the cruise ship (cruise)"
+  },
+  {
+    "time": 86.59,
+    "text": "Doin' shit you don't even see in movies (movies)"
+  },
+  {
+    "time": 89.01,
+    "text": "Ride with me, ride with me, boss (boss)"
+  },
+  {
+    "time": 91.51,
+    "text": "I got a hard head, but her ass soft (soft)"
+  },
+  {
+    "time": 93.84,
+    "text": "She want the last name with the ring on it"
+  },
+  {
+    "time": 96.24,
+    "text": "'Cause I pulled out a million cash, told her plank on it"
+  },
+  {
+    "time": 99.11,
+    "text": "And you are unforgettable"
+  },
+  {
+    "time": 102.22,
+    "text": "I need to get you alone"
+  },
+  {
+    "time": 104.67,
+    "text": "Now you wanna choose"
+  },
+  {
+    "time": 105.96,
+    "text": "Just pop the bubbly in the 'cuzi"
+  },
+  {
+    "time": 109.69,
+    "text": "It's not good enough for me"
+  },
+  {
+    "time": 112.09,
+    "text": "Since I've been with you, ooh"
+  },
+  {
+    "time": 118.26,
+    "text": "I'm gonna sip on this drink, when I'm fucked up"
+  },
+  {
+    "time": 121.08,
+    "text": "I should know how to pick up"
+  },
+  {
+    "time": 123.56,
+    "text": "I'm gonna catch the rhythm"
+  },
+  {
+    "time": 125.0,
+    "text": "While she push up against me, ooh, and she tipsy"
+  },
+  {
+    "time": 129.32,
+    "text": "I had enough convo for 24"
+  },
+  {
+    "time": 132.98,
+    "text": "I peep'd you from across the room"
+  },
+  {
+    "time": 134.81,
+    "text": "Pretty little body dancin' like GoGo, hey"
+  },
+  {
+    "time": 138.23,
+    "text": "And you are unforgettable"
+  },
+  {
+    "time": 141.56,
+    "text": "I need to get you alone, ooh"
+  },
+  {
+    "time": 146.85,
+    "text": "Why not? A fuckin' good time never hurt nobody"
+  },
+  {
+    "time": 149.83,
+    "text": "I got a little drink, but it's not Bacardi"
+  },
+  {
+    "time": 152.53,
+    "text": "If you loved the girl, then I'm so, so sorry"
+  },
+  {
+    "time": 155.08,
+    "text": "I gotta give it to her like we in a marriage"
+  },
+  {
+    "time": 158.07,
+    "text": "Oh, like we in a hurry"
+  },
+  {
+    "time": 160.21,
+    "text": "No, no, I won't tell nobody"
+  },
+  {
+    "time": 162.8,
+    "text": "You're on your level too"
+  },
+  {
+    "time": 165.18,
+    "text": "Tryna do what lovers do"
+  },
+  {
+    "time": 167.96,
+    "text": "You ain't enough for me"
+  },
+  {
+    "time": 170.04,
+    "text": "Too much for you alone"
+  },
+  {
+    "time": 174.0,
+    "text": "Baby, go and grab some bad bitches, bring 'em home"
+  },
+  {
+    "time": 177.76,
+    "text": "Know the jet's on me"
+  },
+  {
+    "time": 179.7,
+    "text": "I'ma curve my best for you, you know"
+  },
+  {
+    "time": 183.2,
+    "text": "So pick up that dress for me"
+  },
+  {
+    "time": 184.74,
+    "text": "Leave the rest on"
+  },
+  {
+    "time": 186.66,
+    "text": "Too much convo for 24 hours"
+  },
+  {
+    "time": 188.71,
+    "text": "When you stand next to 24 karats"
+  },
+  {
+    "time": 191.69,
+    "text": "She left her man at home"
+  },
+  {
+    "time": 194.65,
+    "text": "She don't love him no more"
+  },
+  {
+    "time": 197.14,
+    "text": "I want your mind and your body"
+  },
+  {
+    "time": 198.86,
+    "text": "Don't mind nobody"
+  },
+  {
+    "time": 200.19,
+    "text": "So, you don't ever hurt nobody"
+  },
+  {
+    "time": 202.64,
+    "text": "Baby girl, work your body, work your body"
+  },
+  {
+    "time": 207.47,
+    "text": "And you are unforgettable"
+  },
+  {
+    "time": 210.64,
+    "text": "I need to get you alone"
+  },
+  {
+    "time": 213.04,
+    "text": "Now you wanna choose"
+  },
+  {
+    "time": 214.17,
+    "text": "Just pop the bubbly in the 'cuzi"
+  },
+  {
+    "time": 215.79,
+    "text": "Why not?"
+  },
+  {
+    "time": 217.06,
+    "text": "Oh, like we in a hurry"
+  },
+  {
+    "time": 219.57,
+    "text": "No, no, I won't tell nobody"
+  },
+  {
+    "time": 221.55,
+    "text": "You're on your level too"
+  },
+  {
+    "time": 223.94,
+    "text": "Tryna do what lovers do"
+  }
 ]
 },
     ];
