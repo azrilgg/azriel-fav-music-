@@ -508,67 +508,219 @@ let songs = [
     albumArtUrl: "images/happier.jpg",
     audioSrc: "audio/Marshmello ft Bastille Happier .mp3",
     videoBgSrc: "videos/happier.mp4",
-    lyrics: [     
-   { time: 10, text: "Lately, I've been, I've been thinking" },
-   { time: 13, text: "I want you to be happier, I want you to be happier" },
-   { time: 18, text: "When the morning comes" },
-   { time: 20, text: "When we see what we've become" },
-   { time: 22, text: "In the cold light of day we're a flame in the wind" },
-   { time: 25, text: "Not the fire that we've begun" },
-   { time: 28, text: "Every argument, every word we can't take back" },
-   { time: 32, text: "'Cause with all that has happened" },
-   { time: 38, text: "I think that we both know the way that this story ends" },
-   { time: 41, text: "Then only for a minute" },
-   { time: 44, text: "I want to change my mind" },
-   { time: 48, text: "'Cause this just don't feel right to me" },
-   { time: 51, text: "I wanna raise your spirits" },
-   { time: 54, text: "I want to see you smile but" },
-   { time: 103, text: "Know that means I'll have to leave" },
-   { time: 107, text: "Know that means I'll have to leave" },
-
-   { time: 110, text: "Lately, I've been, I've been thinking" },
-   { time: 116, text: "I want you to be happier, I want you to be happier" },
-   { time: 117, text: "When the evening falls" },
-   { time: 120, text: "And I'm left there with my thoughts" },
-   { time: 123, text: "And the image of you being with someone else" },
-   { time: 125, text: "Well, it's eating me up inside" },
-   { time: 129, text: "But we ran our course, we pretended we're okay" },
-   { time: 132, text: "Now if we jump together at least we can swim" },
-   { time: 135, text: "Far away from the wreck we made" },
-
-   { time: 139, text: "Then only for a minute" },
-   { time: 142, text: "I want to change my mind" },
-   { time: 145, text: "'Cause this just don't feel right to me" },
-   { time: 149, text: "I wanna raise your spirits" },
-   { time: 152, text: "I want to see you smile but" },
-   { time: 201, text: "Know that means I'll have to leave" },
-   { time: 205, text: "Know that means I'll have to leave" },
-
-   { time: 208, text: "Lately, I've been, I've been thinking" },
-   { time: 213, text: "I want you to be happier, I want you to be happier" },
-   { time: 219, text: "So I'll go, I'll go" },
-   { time: 223, text: "I will go, go, go" },
-   { time: 228, text: "So I'll go, I'll go" },
-   { time: 234, text: "I will go, go, go" },
-
-   { time: 237, text: "Lately, I've been, I've been thinking" },
-   { time: 243, text: "I want you to be happier, I want you to be happier" },
-   { time: 246, text: "Even though I might not like this" },
-   { time: 252, text: "I think that you'll be happier, I want you to be happier" },
-
-   { time: 256, text: "Then only for a minute" },
-   { time: 259, text: "I want to change my mind" },
-   { time: 302, text: "'Cause this just don't feel right to me" },
-   { time: 305, text: "I wanna raise your spirits" },
-   { time: 309, text: "I want to see you smile but" },
-   { time: 318, text: "Know that means I'll have to leave" },
-   { time: 321, text: "Know that means I'll have to leave" },
-
-   { time: 325, text: "Lately, I've been, I've been thinking" },
-   { time: 330, text: "I want you to be happier, I want you to be happier" },
-   { time: 335, text: "So I'll go, I'll go" },
-
-   { time: 335, text: "I will go, go, go" } // outro
+    lyrics: [
+  {
+    "time": "00:09.535",
+    "text": "Lately, I've been, I've been thinking"
+  },
+  {
+    "time": "00:12.891",
+    "text": "I want you to be happier, I want you to be happier"
+  },
+  {
+    "time": "00:18.411",
+    "text": "When the morning comes"
+  },
+  {
+    "time": "00:20.122",
+    "text": "When we see what we've become"
+  },
+  {
+    "time": "00:22.493",
+    "text": "In the cold light of day we're a flame in the wind"
+  },
+  {
+    "time": "00:24.708",
+    "text": "Not the fire that we've begun"
+  },
+  {
+    "time": "00:27.760",
+    "text": "Every argument, every word we can't take back"
+  },
+  {
+    "time": "00:32.007",
+    "text": "'Cause with the all that has happened"
+  },
+  {
+    "time": "00:34.223",
+    "text": "I think that we both know the way that this story ends"
+  },
+  {
+    "time": "00:38.373",
+    "text": "Then only for a minute"
+  },
+  {
+    "time": "00:41.963",
+    "text": "I want to change my mind"
+  },
+  {
+    "time": "00:44.141",
+    "text": "'Cause this just don't feel right to me"
+  },
+  {
+    "time": "00:47.904",
+    "text": "I wanna raise your spirits"
+  },
+  {
+    "time": "00:51.566",
+    "text": "I want to see you smile but"
+  },
+  {
+    "time": "00:54.147",
+    "text": "Know that means I'll have to leave"
+  },
+  {
+    "time": "01:03.709",
+    "text": "Know that means I'll have to leave"
+  },
+  {
+    "time": "01:07.260",
+    "text": "Lately, I've been, I've been thinking"
+  },
+  {
+    "time": "01:10.611",
+    "text": "I want you to be happier, I want you to be happier"
+  },
+  {
+    "time": "01:15.991",
+    "text": "When the evening falls"
+  },
+  {
+    "time": "01:17.766",
+    "text": "And I'm left there with my thoughts"
+  },
+  {
+    "time": "01:20.189",
+    "text": "And the image of you being with someone else"
+  },
+  {
+    "time": "01:22.308",
+    "text": "Well, it's eating me up inside"
+  },
+  {
+    "time": "01:25.568",
+    "text": "But we ran our course, we pretended we're okay"
+  },
+  {
+    "time": "01:29.633",
+    "text": "Now if we jump together at least we can swim"
+  },
+  {
+    "time": "01:32.173",
+    "text": "Far away from the wreck we made"
+  },
+  {
+    "time": "01:35.771",
+    "text": "Then only for a minute"
+  },
+  {
+    "time": "01:39.423",
+    "text": "I want to change my mind"
+  },
+  {
+    "time": "01:42.176",
+    "text": "'Cause this just don't feel right to me"
+  },
+  {
+    "time": "01:45.387",
+    "text": "I wanna raise your spirits"
+  },
+  {
+    "time": "01:49.006",
+    "text": "I want to see you smile but"
+  },
+  {
+    "time": "01:51.774",
+    "text": "Know that means I'll have to leave"
+  },
+  {
+    "time": "02:01.188",
+    "text": "Know that means I'll have to leave"
+  },
+  {
+    "time": "02:04.819",
+    "text": "Lately, I've been, I've been thinking"
+  },
+  {
+    "time": "02:08.092",
+    "text": "I want you to be happier, I want you to be happier"
+  },
+  {
+    "time": "02:13.504",
+    "text": "So I'll go, I'll go"
+  },
+  {
+    "time": "02:18.593",
+    "text": "I will go, go, go"
+  },
+  {
+    "time": "02:23.077",
+    "text": "So I'll go, I'll go"
+  },
+  {
+    "time": "02:28.270",
+    "text": "I will go, go, go"
+  },
+  {
+    "time": "02:33.413",
+    "text": "Lately, I've been, I've been thinking"
+  },
+  {
+    "time": "02:37.017",
+    "text": "I want you to be happier, I want you to be happier"
+  },
+  {
+    "time": "02:43.274",
+    "text": "Even though I might not like this"
+  },
+  {
+    "time": "02:46.543",
+    "text": "I think that you'll be happier, I want you to be happier"
+  },
+  {
+    "time": "02:52.609",
+    "text": "Then only for a minute (only for a minute)"
+  },
+  {
+    "time": "02:56.369",
+    "text": "I want to change my mind"
+  },
+  {
+    "time": "02:58.583",
+    "text": "'Cause this just don't feel right to me"
+  },
+  {
+    "time": "03:02.185",
+    "text": "I wanna raise your spirits (wanna raise your spirits)"
+  },
+  {
+    "time": "03:05.975",
+    "text": "I want to see you smile but"
+  },
+  {
+    "time": "03:08.504",
+    "text": "Know that means I'll have to leave"
+  },
+  {
+    "time": "03:18.138",
+    "text": "Know that means I'll have to leave"
+  },
+  {
+    "time": "03:21.655",
+    "text": "Lately, I've been, I've been thinking"
+  },
+  {
+    "time": "03:24.955",
+    "text": "I want you to be happier, I want you to be happier"
+  },
+  {
+    "time": "03:30.391",
+    "text": "So I'll go, I'll go"
+  },
+  {
+    "time": "03:35.326",
+    "text": "I will go, go, go"
+  }
 ]
 },
     {
