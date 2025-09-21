@@ -378,55 +378,174 @@ let songs = [
         audioSrc: "audio/I Wanna Be Yours.mp3",
         videoBgSrc: "videos/i_wanna_be_yours_bg.mp4",
         lyrics: [
-  { "time": 18, "text": "I wanna be your vacuum cleaner" },
-  { "time": 22, "text": "Breathing in your dust" },
-  { "time": 25, "text": "I wanna be your Ford Cortina" },
-  { "time": 29, "text": "I will never rust" },
-  { "time": 33, "text": "If you like your coffee hot" },
-  { "time": 36, "text": "Let me be your coffee pot" },
-  { "time": 40, "text": "You call the shots, babe" },
-  { "time": 42, "text": "I just wanna be yours" },
-
-  { "time": 46, "text": "Secrets I have held in my heart" },
-  { "time": 50, "text": "Are harder to hide than I thought" },
-  { "time": 54, "text": "Maybe I just wanna be yours" },
-  { "time": 57, "text": "I wanna be yours, I wanna be yours" },
-
-  { "time": 102, "text": "Wanna be yours" },
-  { "time": 106, "text": "Wanna be yours" },
-  { "time": 109, "text": "Wanna be yours" },
-
-  { "time": 115, "text": "Let me be your leccy meter" },
-  { "time": 119, "text": "And I'll never run out" },
-  { "time": 122, "text": "Let me be the portable heater" },
-  { "time": 126, "text": "That you'll get cold without" },
-  { "time": 129, "text": "I wanna be your setting lotion (wanna be)" },
-  { "time": 133, "text": "Hold your hair in deep devotion (How deep?)" },
-  { "time": 136, "text": "At least as deep as the Pacific Ocean" },
-  { "time": 140, "text": "Now I wanna be yours" },
-
-  { "time": 143, "text": "Secrets I have held in my heart" },
-  { "time": 147, "text": "Are harder to hide than I thought" },
-  { "time": 150, "text": "Maybe I just wanna be yours" },
-  { "time": 154, "text": "I wanna be yours, I wanna be yours" },
-  { "time": 159, "text": "Wanna be yours" },
-
-  { "time": 203, "text": "Wanna be yours" },
-  { "time": 207, "text": "Wanna be yours" },
-  { "time": 210, "text": "Wanna be yours" },
-  { "time": 214, "text": "Wanna be yours" },
-  { "time": 217, "text": "Wanna be yours" },
-  { "time": 221, "text": "Wanna be yours" },
-  { "time": 224, "text": "Wanna be yours" },
-  { "time": 226, "text": "(Wanna be yours)" },
-
-  { "time": 230, "text": "I wanna be your vacuum cleaner (wanna be yours)" },
-  { "time": 233, "text": "Breathing in your dust (wanna be yours)" },
-  { "time": 237, "text": "I wanna be your Ford Cortina (wanna be yours)" },
-  { "time": 241, "text": "I will never rust (wanna be yours)" },
-  { "time": 244, "text": "I just wanna be yours (wanna be yours)" },
-  { "time": 248, "text": "I just wanna be yours (wanna be yours)" }
-
+  {
+    "time": 18.361,
+    "text": "I wanna be your vacuum cleaner"
+  },
+  {
+    "time": 21.961,
+    "text": "Breathing in your dust"
+  },
+  {
+    "time": 25.286,
+    "text": "I wanna be your Ford Cortina"
+  },
+  {
+    "time": 29.109,
+    "text": "I will never rust"
+  },
+  {
+    "time": 32.477,
+    "text": "If you like your coffee hot"
+  },
+  {
+    "time": 36.21,
+    "text": "Let me be your coffee pot"
+  },
+  {
+    "time": 39.505,
+    "text": "You call the shots, babe"
+  },
+  {
+    "time": 42.274,
+    "text": "I just wanna be yours"
+  },
+  {
+    "time": 46.47,
+    "text": "Secrets I have held in my heart"
+  },
+  {
+    "time": 50.022,
+    "text": "Are harder to hide than I thought"
+  },
+  {
+    "time": 53.592,
+    "text": "Maybe I just wanna be yours"
+  },
+  {
+    "time": 57.282,
+    "text": "I wanna be yours, I wanna be yours"
+  },
+  {
+    "time": 62.427,
+    "text": "Wanna be yours"
+  },
+  {
+    "time": 66.035,
+    "text": "Wanna be yours"
+  },
+  {
+    "time": 69.469,
+    "text": "Wanna be yours"
+  },
+  {
+    "time": 75.427,
+    "text": "Let me be your leccy meter"
+  },
+  {
+    "time": 78.528,
+    "text": "And I'll never run out"
+  },
+  {
+    "time": 81.996,
+    "text": "Let me be the portable heater"
+  },
+  {
+    "time": 85.903,
+    "text": "That you'll get cold without"
+  },
+  {
+    "time": 89.529,
+    "text": "I wanna be your setting lotion (wanna be)"
+  },
+  {
+    "time": 92.961,
+    "text": "Hold your hair in deep devotion (How deep?)"
+  },
+  {
+    "time": 96.263,
+    "text": "At least as deep as the Pacific Ocean"
+  },
+  {
+    "time": 99.915,
+    "text": "Now I wanna be yours"
+  },
+  {
+    "time": 103.334,
+    "text": "Secrets I have held in my heart"
+  },
+  {
+    "time": 107.002,
+    "text": "Are harder to hide than I thought"
+  },
+  {
+    "time": 110.414,
+    "text": "Maybe I just wanna be yours"
+  },
+  {
+    "time": 114.294,
+    "text": "I wanna be yours, I wanna be yours"
+  },
+  {
+    "time": 119.541,
+    "text": "Wanna be yours"
+  },
+  {
+    "time": 123.112,
+    "text": "Wanna be yours"
+  },
+  {
+    "time": 126.581,
+    "text": "Wanna be yours"
+  },
+  {
+    "time": 130.098,
+    "text": "Wanna be yours"
+  },
+  {
+    "time": 133.698,
+    "text": "Wanna be yours"
+  },
+  {
+    "time": 137.175,
+    "text": "Wanna be yours"
+  },
+  {
+    "time": 140.708,
+    "text": "Wanna be yours"
+  },
+  {
+    "time": 144.266,
+    "text": "(Wanna be yours)"
+  },
+  {
+    "time": 146.62,
+    "text": "I wanna be your vacuum cleaner (wanna be yours)"
+  },
+  {
+    "time": 149.783,
+    "text": "Breathing in your dust (wanna be yours)"
+  },
+  {
+    "time": 153.266,
+    "text": "I wanna be your Ford Cortina (wanna be yours)"
+  },
+  {
+    "time": 156.828,
+    "text": "I will never rust (wanna be yours)"
+  },
+  {
+    "time": 160.075,
+    "text": "I just wanna be yours (wanna be yours)"
+  },
+  {
+    "time": 163.479,
+    "text": "I just wanna be yours (wanna be yours)"
+  },
+  {
+    "time": 167.266,
+    "text": "I just wanna be yours (wanna be yours)"
+  }
 ]
 },
     {
