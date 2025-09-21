@@ -1168,56 +1168,200 @@ let songs = [
     audioSrc: "audio/Viva la vida.mp3",
     videoBgSrc: "videos/barca.mp4",
     lyrics: [
-    { "time": "12.995", "text": "I used to rule the world" },
-    { "time": "16.724", "text": "Seas would rise when I gave the word" },
-    { "time": "19.319", "text": "Now in the morning, I sleep alone" },
-    { "time": "23.432", "text": "Sweep the streets I used to own" },
-    { "time": "40.946", "text": "I used to roll the dice" },
-    { "time": "44.544", "text": "Feel the fear in my enemy's eyes" },
-    { "time": "47.574", "text": "Listen as the crowd would sing" },
-    { "time": "51.501", "text": "Now the old king is dead, long live the king" },
-    { "time": "54.573", "text": "One minute, I held the key" },
-    { "time": "58.318", "text": "Next the walls were closed on me" },
-    { "time": "101.092", "text": "And I discovered that my castles stand" },
-    { "time": "105.442", "text": "Upon pillars of salt and pillars of sand" },
-    { "time": "109.389", "text": "I hear Jerusalem bells a-ringin'" },
-    { "time": "112.885", "text": "Roman Cavalry choirs are singin'" },
-    { "time": "116.320", "text": "Be my mirror, my sword and shield" },
-    { "time": "119.621", "text": "My missionaries in a foreign field" },
-    { "time": "123.287", "text": "For some reason, I can't explain" },
-    { "time": "126.758", "text": "Once you'd gone, there was never, never an honest word" },
-    { "time": "133.190", "text": "And that was when I ruled the world" },
-    { "time": "149.812", "text": "It was a wicked and wild wind" },
-    { "time": "154.173", "text": "Blew down the doors to let me in" },
-    { "time": "156.753", "text": "Shattered windows and the sound of drums" },
-    { "time": "201.116", "text": "People couldn't believe what I'd become" },
-    { "time": "204.085", "text": "Revolutionaries wait" },
-    { "time": "207.928", "text": "For my head on a silver plate" },
-    { "time": "210.835", "text": "Just a puppet on a lonely string" },
-    { "time": "215.077", "text": "Aw, who would ever wanna be king?" },
-    { "time": "218.968", "text": "I hear Jerusalem bells a-ringin'" },
-    { "time": "222.368", "text": "Roman Cavalry choirs are singing" },
-    { "time": "225.928", "text": "Be my mirror, my sword and shield" },
-    { "time": "229.381", "text": "My missionaries in a foreign field" },
-    { "time": "232.884", "text": "For some reason, I can't explain" },
-    { "time": "236.416", "text": "I know Saint Peter won't call my name" },
-    { "time": "239.346", "text": "Never an honest word" },
-    { "time": "242.983", "text": "But that was when I ruled the world" },
-    { "time": "259.671", "text": "Oh-oh-oh, oh-oh, oh" },
-    { "time": "302.813", "text": "Oh-oh-oh, oh-oh, oh" },
-    { "time": "306.353", "text": "Oh-oh-oh, oh-oh, oh" },
-    { "time": "309.762", "text": "Oh-oh-oh, oh-oh, oh" },
-    { "time": "313.424", "text": "Oh-oh-oh, oh-oh, oh" },
-    { "time": "314.683", "text": "I hear Jerusalem bells a-ringin'" },
-    { "time": "318.165", "text": "Roman Cavalry choirs are singin'" },
-    { "time": "321.552", "text": "Be my mirror, my sword and shield" },
-    { "time": "324.930", "text": "My missionaries in a foreign field" },
-    { "time": "328.476", "text": "For some reason I can't explain" },
-    { "time": "332.028", "text": "I know Saint Peter won't call my name" },
-    { "time": "335.110", "text": "Never an honest word" },
-    { "time": "338.426", "text": "But that was when I ruled the world" }
+    {
+      "time": "12.995",
+      "text": "I used to rule the world"
+    },
+    {
+      "time": "16.724",
+      "text": "Seas would rise when I gave the word"
+    },
+    {
+      "time": "19.319",
+      "text": "Now in the morning, I sleep alone"
+    },
+    {
+      "time": "23.432",
+      "text": "Sweep the streets I used to own"
+    },
+    {
+      "time": "40.946",
+      "text": "I used to roll the dice"
+    },
+    {
+      "time": "44.544",
+      "text": "Feel the fear in my enemy's eyes"
+    },
+    {
+      "time": "47.574",
+      "text": "Listen as the crowd would sing"
+    },
+    {
+      "time": "51.501",
+      "text": "Now the old king is dead, long live the king"
+    },
+    {
+      "time": "54.573",
+      "text": "One minute, I held the key"
+    },
+    {
+      "time": "58.318",
+      "text": "Next the walls were closed on me"
+    },
+    {
+      "time": "61.092",
+      "text": "And I discovered that my castles stand"
+    },
+    {
+      "time": "65.442",
+      "text": "Upon pillars of salt and pillars of sand"
+    },
+    {
+      "time": "69.389",
+      "text": "I hear Jerusalem bells a-ringin'"
+    },
+    {
+      "time": "72.885",
+      "text": "Roman Cavalry choirs are singin'"
+    },
+    {
+      "time": "76.32",
+      "text": "Be my mirror, my sword and shield"
+    },
+    {
+      "time": "79.621",
+      "text": "My missionaries in a foreign field"
+    },
+    {
+      "time": "83.287",
+      "text": "For some reason, I can't explain"
+    },
+    {
+      "time": "86.758",
+      "text": "Once you'd gone, there was never, never an honest word"
+    },
+    {
+      "time": "93.19",
+      "text": "And that was when I ruled the world"
+    },
+    {
+      "time": "109.812",
+      "text": "It was a wicked and wild wind"
+    },
+    {
+      "time": "114.173",
+      "text": "Blew down the doors to let me in"
+    },
+    {
+      "time": "116.753",
+      "text": "Shattered windows and the sound of drums"
+    },
+    {
+      "time": "121.116",
+      "text": "People couldn't believe what I'd become"
+    },
+    {
+      "time": "124.085",
+      "text": "Revolutionaries wait"
+    },
+    {
+      "time": "127.928",
+      "text": "For my head on a silver plate"
+    },
+    {
+      "time": "130.835",
+      "text": "Just a puppet on a lonely string"
+    },
+    {
+      "time": "135.077",
+      "text": "Aw, who would ever wanna be king?"
+    },
+    {
+      "time": "138.968",
+      "text": "I hear Jerusalem bells a-ringin'"
+    },
+    {
+      "time": "142.368",
+      "text": "Roman Cavalry choirs are singing"
+    },
+    {
+      "time": "145.928",
+      "text": "Be my mirror, my sword and shield"
+    },
+    {
+      "time": "149.381",
+      "text": "My missionaries in a foreign field"
+    },
+    {
+      "time": "152.884",
+      "text": "For some reason, I can't explain"
+    },
+    {
+      "time": "156.416",
+      "text": "I know Saint Peter won't call my name"
+    },
+    {
+      "time": "159.346",
+      "text": "Never an honest word"
+    },
+    {
+      "time": "162.983",
+      "text": "But that was when I ruled the world"
+    },
+    {
+      "time": "179.671",
+      "text": "Oh-oh-oh, oh-oh, oh"
+    },
+    {
+      "time": "182.813",
+      "text": "Oh-oh-oh, oh-oh, oh"
+    },
+    {
+      "time": "186.353",
+      "text": "Oh-oh-oh, oh-oh, oh"
+    },
+    {
+      "time": "189.762",
+      "text": "Oh-oh-oh, oh-oh, oh"
+    },
+    {
+      "time": "193.424",
+      "text": "Oh-oh-oh, oh-oh, oh"
+    },
+    {
+      "time": "194.683",
+      "text": "I hear Jerusalem bells a-ringin'"
+    },
+    {
+      "time": "198.165",
+      "text": "Roman Cavalry choirs are singin'"
+    },
+    {
+      "time": "201.552",
+      "text": "Be my mirror, my sword and shield"
+    },
+    {
+      "time": "204.93",
+      "text": "My missionaries in a foreign field"
+    },
+    {
+      "time": "208.476",
+      "text": "For some reason I can't explain"
+    },
+    {
+      "time": "212.028",
+      "text": "I know Saint Peter won't call my name"
+    },
+    {
+      "time": "215.11",
+      "text": "Never an honest word"
+    },
+    {
+      "time": "218.426",
+      "text": "But that was when I ruled the world"
+    }
   ]
-      }
+    },
     ];
 
 let currentSongIndex = 0;
